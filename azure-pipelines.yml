@@ -10,7 +10,7 @@ pool:
   vmImage: ubuntu-latest
 
 variables:
-  webAppName: 'mysampleapp.abz8a.load.azurewebsites.net'
+  webAppName: 'mysampleapp-abz8a-load'
   serviceConnection: 'CosmosBottleneck'
   azureSubscriptionId: 'd6494a56-5adf-463b-b88e-72d7fb51cd7b'
   loadTestResource: 'mslearn-loadtest-inst'
