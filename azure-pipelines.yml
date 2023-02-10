@@ -10,12 +10,12 @@ pool:
   vmImage: ubuntu-latest
 
 variables:
-  webAppName: '<Name of your webapp>'
-  serviceConnection: '<Name of your webARM Service connection>'
-  azureSubscriptionId: '<Azure subscriptionId>'
-  loadTestResource: '<Name of your load test resource>'
-  loadTestResourceGroup: '<Name of your load test resource group>'
-  location: 'EAST US'
+  webAppName: 'mysampleapp.abz8a.load.azurewebsites.net'
+  serviceConnection: 'CosmosBottleneck'
+  azureSubscriptionId: 'd6494a56-5adf-463b-b88e-72d7fb51cd7b'
+  loadTestResource: 'mslearn-loadtest-inst'
+  loadTestResourceGroup: 'rg-se-aus-aqa-ai'
+  location: 'Australia East'
 
 
 stages:
